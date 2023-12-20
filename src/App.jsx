@@ -11,13 +11,6 @@ function App() {
   return (
     <div>
       <Parallax pages={4} ref={ref}>
-        {/* <ParallaxLayer speed={1}>
-            <h2>Welcome to my website</h2>
-        </ParallaxLayer>
-
-        <ParallaxLayer offset={1} speed={0.5}>
-            <h2>Web development is fun!</h2>
-        </ParallaxLayer> */}
 
         <ParallaxLayer
           offset={0}
@@ -51,7 +44,7 @@ function App() {
           speed={0.05}
           onClick={() => ref.current.scrollTo(3)}
         >
-          <h2>Welcome to my website</h2>
+          <h2>Welcome to my portfolio</h2>
         </ParallaxLayer>
 
         <ParallaxLayer
@@ -59,7 +52,7 @@ function App() {
           speed={2}
           onClick={() => ref.current.scrollTo(0)}
         >
-          <h2>Hi Mom!</h2>
+          <h2>My name is Ali</h2>
         </ParallaxLayer>
       </Parallax>
     </div>
